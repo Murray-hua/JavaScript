@@ -1,0 +1,24 @@
+<script>  
+   var score = prompt('Please input score: ')
+      if(isNaN(score)){
+          console.log('Please input number!');
+      else{
+          console.log(score);
+          score=parseInt(score)
+          console.log(score);
+          if(score>=90){
+          console.log('A');
+          }else if(score>=80} {
+          console.log('B');
+          } else if (score>=60){
+          console.log('C');
+          } else{
+          console.log('D');
+          }
+     }
+          
+          
+
+
+
+</script>
